@@ -1,0 +1,33 @@
+@import "../../style/generic/variables";
+
+.bg{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 2rem;
+
+}
+
+.icon{
+    height: 1rem;
+    width: 1rem;
+    fill: white;
+}
+
+.btnCol{
+background-color: $side-bg;
+}
+
+.input,
+.input:focus{
+    border-style: none;
+    outline: none !important;
+}
+
+.download{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    stroke-width: 0;
+    stroke: $side-bg;
+    fill: $side-bg;
+  }

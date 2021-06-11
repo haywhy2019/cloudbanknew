@@ -1,0 +1,71 @@
+@import "../../style/generic/variables";
+
+.icon{
+    width: 1.2rem;
+    height: 1.2rem;
+   stroke: white;
+}
+
+.noStroke{
+    stroke: none; 
+}
+
+
+
+.nav li, a{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    
+}  .sideContain{
+    background-color: $side-bg !important;
+    display: block !important;   
+    }
+
+.logo{
+    display: inline-block;
+}
+
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .desktop{
+        display: block !important;    
+    }
+    .sideContain{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    background-color: $side-bg !important;
+    // height: 100vh;
+    display: block !important;   
+    width: 80%;
+    padding-bottom: 3rem;
+    
+    }
+    .nav li, a{
+        padding-top: 2.2rem;
+        color: white;
+        text-decoration: none;
+        
+    }
+    a:hover{
+    
+        color: white;
+        text-decoration: none;
+        background-color:  #0E0E3D !important; 
+        
+    }
+  
+    .subnav{
+        padding-left: 4rem;
+        background-color: #0E0E3D !important;
+    }
+    .subnav, a:hover{
+        background-color: #0E0E3D !important;
+    }
+   .hide{
+       visibility: hidden;
+       height: 0;
+   }
+  
+  }

@@ -1,0 +1,92 @@
+@import "../../style/generic/variables";
+
+.textBold{
+    color: $side-bg;
+    font-weight: bold;
+}
+
+.button{
+    background-color: $side-bg;
+    border-radius: 10px;
+    // margin-bottom: 5rem;
+}
+
+// .invest{
+//     display: flex;
+// }
+
+.contain{
+    width: 20rem;
+    height: 7rem;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+
+}
+
+.avatar{
+    background-color:#6FCF97;
+    height: 7rem;
+    width: 7rem;
+    z-index: 2;
+    border-radius: 10px;
+
+}
+
+select, 
+select:focus{
+    border-style: none;
+    outline: none !important;
+    color: none;
+    // padding: 0.5rem 10rem;
+    width: 10rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    display: block;
+    // margin-top: 1rem;
+    // margin-bottom: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-between;
+    
+}
+
+.component{
+    padding: 2rem;
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    select, 
+    select:focus{
+        border-style: none;
+        outline: none !important;
+        color: none;
+        // padding: 0.5rem 10rem;
+        width: 35rem;
+        height: 3rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        // padding-left: 0.5rem;
+        // padding-right: 1rem;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        justify-content: space-between;
+        
+    }
+
+    .component{
+        padding: 3rem;
+    }
+    
+    .contain{
+        width: 20rem;
+        height: 7rem;
+        background-color:white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+    
+    }
+  
+}

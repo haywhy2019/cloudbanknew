@@ -1,0 +1,33 @@
+@import "../../style/generic/variables";
+
+.sideContain{
+    background-color: $side-bg !important;
+    display: block !important;   
+    }
+
+.main{
+    background-color: #E5E5E5;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .desktop{
+        display: block !important;    
+    }
+    .sideContain{
+    background-color: $side-bg !important;
+    // height: 100vh;
+    display: block !important;   
+    width: 20%;
+    
+    }
+    .nav li, a{
+        padding-top: 2.2rem;
+        color: white;
+        text-decoration: none;
+        
+    }
+
+  
+  }

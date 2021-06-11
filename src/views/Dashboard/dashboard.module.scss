@@ -1,0 +1,64 @@
+@import "../../style/generic/variables";
+
+
+.pcolor{
+    color: $side-bg;
+    font-weight: 500;
+}
+
+.filter{
+width: 4rem;
+border-radius: 5px;
+border-color: #adb5bd;
+}
+
+.button{
+    color: #219653;
+    background-color: #6FCF97;
+}
+.padded{
+    margin-left: 0;
+}
+
+.chart{
+    height: 6rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.6rem;
+}
+
+.profit{
+    width: 27rem;
+    height: 20.5rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.6rem;
+}
+
+.linechart{
+    border-radius: 0.6rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    .bg{
+        border-radius: 0.6rem;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+
+
+//   @media only screen and (min-width: 992px) {
+//     .padded{
+//         margin-left: 50rem;
+//      }
+//   }
