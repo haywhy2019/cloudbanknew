@@ -105,6 +105,7 @@ function Aside() {
               ]}
               type="line"
               width="400"
+              height="330"
             />
                 </div>
 
